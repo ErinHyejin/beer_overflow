@@ -1,0 +1,81 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/erin/workspace/dbc/phase3_week1/stack-overflow-workshop-challenge/dbc_overflow/app/helpers/answers_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/erin/workspace/dbc/phase3_week1/stack-overflow-workshop-challenge/dbc_overflow/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/erin/workspace/dbc/phase3_week1/stack-overflow-workshop-challenge/dbc_overflow/app/helpers/question_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/erin/workspace/dbc/phase3_week1/stack-overflow-workshop-challenge/dbc_overflow/app/controllers/questions_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/erin/workspace/dbc/phase3_week1/stack-overflow-workshop-challenge/dbc_overflow/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/erin/workspace/dbc/phase3_week1/stack-overflow-workshop-challenge/dbc_overflow/app/models/answer.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/erin/workspace/dbc/phase3_week1/stack-overflow-workshop-challenge/dbc_overflow/app/models/question.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1428457801
+  }
+}

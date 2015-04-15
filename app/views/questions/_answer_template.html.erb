@@ -1,0 +1,28 @@
+ <script id="answer_template" type="x-handlebars-template">
+  {{#answer}}
+  <li class="answer">
+    <div class="vote_action">
+      <a href="{{question_id}}/answers/{{id}}/upvote" class= "vote"><%= image_tag "upvote.jpg"%></a>
+
+      <a href="{{question_id}}/answers/{{id}}/downvote" class ="vote"><%= image_tag "downvote.jpeg"%></a>
+
+    </div>
+
+    <div class="vote_count">
+
+    </div>
+
+    <div class="answer_title">
+      {{title}}
+    </div>
+
+    <div class="answer_content">
+      {{content}}
+    </div>
+    <a href="/questions/{{question_id}}/answers/{{id}}/edit">Edit</a>
+    <a data-confirm="Are you sure?" data-method="delete" href="/questions/{{question_id}}/answers/{{id}}">Delete</a>
+  </li>
+  <hr>
+  {{/answer}}
+
+ </script>
