@@ -1,0 +1,14 @@
+<div class="question_form">
+  <%= form_for @question do |f| %>
+  <br>
+  <br>
+  Question Title: <br />
+  <%= f.text_field :title, class: "title" %> <br />
+  <br>
+  <br>
+  Question Content: <br />
+  <%= f.text_area :content, class: "content" %> <br />
+  <%= f.submit "Edit this question" %>
+  <% end %>
+  </div>
+<%= link_to 'Back', question_path %>

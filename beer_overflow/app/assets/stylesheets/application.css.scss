@@ -1,0 +1,72 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+
+container {
+  border: 1px solid black;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+header {
+  height: 14em;
+  background-image: url("beerfoam.jpeg");
+  background-repeat: no-repeat;
+  background-size: 30em;
+  background-color: black;
+}
+
+logo {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  top: 1em;
+  left: 4em;
+  font-family: cursive;
+}
+
+moto {
+  color: #aaa;
+  font-size: 1.7em;
+  position: absolute;
+  top: 1em;
+  left: 30em;
+  font-family: 'Slabo';
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  &:hover {
+    color: rgb(211, 137, 61);
+  }
+
+}
+
+.question_form {
+  .title {
+    width: 100%;
+    height: 2em;
+  }
+  .content {
+    width: 100%;
+    height: 10em;
+  }
+  margin: 0 auto;
+  width: 80%;
+}

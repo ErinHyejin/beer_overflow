@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DbcOverflow</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <container>
+    <header>
+      <a href="/questions"><logo>
+        Beer Overflow
+      </logo></a>
+
+      <moto>
+        <%= image_tag "simpson_quote.png", {width: 300} %>
+      </moto>
+    </header>
+  <%= yield %>
+  </container>
+</body>
+</html>
